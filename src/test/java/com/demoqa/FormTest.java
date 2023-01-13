@@ -21,7 +21,7 @@ public class FormTest extends BaseTest{
 		formPage = new PracticeFormPage(driver);
 	}
 	
-	@Test
+	@Test(description = "Fill and submit form test")
 	public void selectTest() {
 		String firstName = "Luke";
 		String secondName = "Skywalker";
