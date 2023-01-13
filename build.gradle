@@ -18,6 +18,7 @@ dependencies {
 
 test {
 	useTestNG(){
+		useDefaultListeners = true
 		suites 'src/test/resources/suites/suite.xml'
 	}
 }
