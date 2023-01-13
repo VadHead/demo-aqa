@@ -22,7 +22,7 @@ public class FormTest extends BaseTest{
 	}
 	
 	@Test(description = "Fill and submit form test")
-	public void selectTest() {
+	public void formSubmitTest() {
 		String firstName = "Luke";
 		String secondName = "Skywalker";
 		String email = "skynagibator@xwing.com";
