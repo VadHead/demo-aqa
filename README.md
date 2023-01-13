@@ -32,3 +32,7 @@
     gradle clean test --tests "com.demoqa.FormTest.formSubmitTest"
     gradle clean test --tests "com.demoqa.SliderTest.sliderRangeTest"
     ```
+3. Tests result report generated in the following file:
+    ```
+    <demo-qa folder>build\reports\tests\test\index.html
+    ```
